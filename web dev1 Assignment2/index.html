@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>personal portfolio (css)</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="body">
+    <header id="head">    
+    <div id="heading"><h1>ZISHAN ZAFFAR</h1>
+    <nav aria-label="main nagivation"> 
+    <a href="#body" class="back-to-top">^ Back to top</a>
+    <a href="#skills" class="skill">Skill</a>
+    <a href="#form" class="contact-form">contact form</a>
+    <a href="#project" class="project">Project</a>
+    <a href="#about" class="about">About</a></div> 
+</nav></header>
+     <main> 
+      <hr class="hr">
+       <h2 id="about"><b>Welcome to my protfolio</b></h2>
+     <img id="profile" src="Image.JPG" height="300px" width="300px">
+     <h3 id="intro">Hello! I am a B.Tech CSE core 'Web Development' student. This is my personal portfolio website.</h3>
+     <hr class="hr">
+<h2 id="skills">Skill</h2>
+<table  border="4"cellpadding="5"  cellspacing="1" class="table">
+    <thead>
+        <caption id="caption" >Web Devlopment skills</caption>
+        <tr><th class="th1">Skills</th>
+        <th class="th2">Level</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>HTML</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr><td>CSS</td>
+            <td>Beginner</td>
+        </tr>
+        <tr><td>JAVASCRIPT</td>
+            <td>Learning</td>
+        </tr>
+
+    </tbody>
+</table>
+<hr class="hr">
+<h2 id="project">My Project</h2>
+<img src="1.png" alt="my project" hight="100px" width="400px">
+<img src="2.png" alt="my project" hight="100px" width="400px">
+<hr>
+ <form action="/action.php" id="form">
+<h2 id="contact">Contact form</h2>
+<hr class="hr">
+      <h2><i>Enter name and password</i></h2>
+      <label id="name">
+      Name:<input type="text" name="name" placeholder="enter your name" pattern="[A-Z a-z]+"></label>
+      <br>
+      <label id="password">
+      Password:<input type="password" name="password" placeholder="enter password"  minlength="6" maxlength="10"></label>
+      
+      <h2><i>Enter your gender</i></h2>
+      <label id="male">
+        <input type="radio" value="male" name="gender">male
+      </label>
+      <label id="female">
+        <input type="radio" value="female" name="gender">female
+      </label>
+      <label id="other">
+        <input type="radio" value="other" name="gender">other
+      </label>
+      <br>
+      <h2><i>Enter date of birth</i></h2>
+      <label id="dob">
+      <input type="date" name="DOB" placeholder="enter your DOB" min="2000-01-01" max="2026-09-18"></label>
+      <br>
+      <h2><i>Enter contact number</i></h2>      
+      <label id="contect">
+      <input type="tel" name="contact"  placeholder="enter contact number" pattern="[6-9]{1}[0-9]{9}" maxlength="10">
+      </label>
+      <br>
+      <h2><i>Enter email</i></h2>
+      <label id="mail">
+        <input type="email" name="email" placeholder="enter your email" >
+      </label>
+      <br>
+      <h2><i>select country</i></h2>
+      <select name="country" id="country">
+        <option value="india">india</option>
+        <option value="usa">usa</option>
+        <option value="uk">uk</option>
+        <option value="australia">australia</option>
+      </select>
+      <br>
+      <h2><i>Upload file</i></h2>
+      <label id="file">
+        <input type="file" name="file">
+      </label>
+      <br>
+    <h2><i>enter feedback</i></h2>
+      <textarea name="feedback" id="feedback" placeholder="enter your feedback in experience of our website " cols="30" rows="2"></textarea>
+      <br>
+      <label>
+        <input type="checkbox" name="terms" required id="terms"> I accept the terms and conditions*
+      </label>
+      <br>
+      <button type="submit" id="submit">submit</button>
+      <button type="reset" id=reset>reset</button> 
+    </form>  
+    </main>
+    <footer class="footer">
+        <h4 id="extro">@zishanzaffar 2026</h4>
+        <h3 id="extro1">follow us on</h3>
+     <aside>
+     <a id="instagram" href="https://www.instagram.com/zishan_zaffarx/" target="_blank"><img src="https://www.bing.com/th/id/OIP.fNdYnbLL5ZOf4A7isn_kbwHaHa?w=193&h=193&c=8&rs=1&qlt=90&o=6&pid=ImgAns&rm=2" height="50px" width="50px"></a>
+     <a id="facebook" href="https://www.facebook.com/profile.php?id=100079655310305" target="_blank"><img src="https://i.pinimg.com/236x/d1/bf/a9/d1bfa97a3dd4a8b4eedea7d53f0f3e7a.jpg?nii=t" height="50px" width="50px"></a>
+     <a id="snapchat" href="https://accounts.snapchat.com/v2/welcome" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtm7DY6h-6JsTTbjtl_DmTI2sDmaQ83rgQzy6NGxsupQ&s=10" height="50px" width="50px"></a>
+    <a id="linkin" href="https://www.linkedin.com/in/zishan-zaffar-99b423426/?isSelfProfile=true" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxNRiTV1UJmwO2Z0oqPU_aTyXZHtylLBJkLbgKABBQoQ&s=10" height="50px" width="50px"></a>
+    </aside>
+    </footer>
+    </body>
+</html>

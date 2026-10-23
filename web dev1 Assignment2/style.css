@@ -1,0 +1,138 @@
+#head{position: sticky;
+    top: 0;
+}
+#heading{background-color:#013a63;
+        padding: 1px;
+        color:rgb(252, 249, 249);
+         text-align:left;
+         font-weight: bold;border-radius:12px;
+         top:10px;}
+#about{text-align:center; 
+        color: #013a63; }          
+#profile{display: block;
+        margin:0 auto;
+        text-align: center;
+         border-radius: 180px;
+        border:5px solid #013a63 }  
+#intro{
+        text-align:center;
+       } 
+.footer{background-color: #013a63;
+        }  
+#instagram{background-color:#013a63;
+          position:relative;
+          bottom:0px;
+          left:90px;
+        } 
+#facebook{background-color:#013a63;
+        position:relative;
+        bottom:0px;
+          left:120px;
+          } 
+#snapchat{background-color:#013a63;
+        position:relative;
+        bottom:0px;
+          left:150px;
+          }
+#linkin{background-color:#013a63;
+        position:relative;
+        bottom:0px;
+          left:180px;}               
+#extro{text-align: center;
+       color:aliceblue;} 
+#extro1{color:aliceblue;
+        text-align: left;}   
+.back-to-top{position:fixed;
+        background-color:#013a63;
+        color:rgb(230, 233, 236);
+        bottom:60px;
+        right:20px;
+        padding:12px;
+        border-radius: 50px;
+        text-decoration:none;
+        } 
+#skills{text-align:center;
+        color: #013a63;
+        font-weight: bold;}               
+.table{margin-left:auto;
+        width:400px;
+        text-shadow: #110000;
+        text-align: center;
+        font-weight:900px;
+        border-color: #013a63;
+        margin-right:auto;
+       color:#110000;
+       background-color:whitesmoke;  
+      border:2px solid #cfcfcf ;
+      padding:20px;
+      border-radius:8px;
+      margin:20px auto;
+      max-width:500px;
+       } 
+.th1{color:aliceblue;
+     background-color: #013a63;} 
+.th2{color:aliceblue;
+     background-color: #013a63;}           
+       
+#caption{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         color: #013a63;font-weight: bold;        }   
+#form{text-align:left;
+      background-color:whitesmoke;  
+      border:2px solid #cfcfcf ;
+      padding:20px;
+      border-radius:8px;
+      margin:20px auto;
+      max-width:500px;}
+#contact{color: #013a63;
+         font-weight: 900;}
+.skill{position:absolute;
+        padding:8px;
+        border-radius: 10px ;
+        border:solid #013a63;
+        background-color:whitesmoke;
+        color: #110000;
+        text-decoration: none;
+        top:30px;
+        right:225px;
+}   
+.contact-form{position:absolute;
+         padding:8px;
+        border-radius: 10px ;
+        border:solid #013a63;
+        background-color: whitesmoke;
+        color: #110000;
+        text-decoration: none;
+        text-decoration: none;
+        top:30px;
+        right:45px;
+                } 
+.project{position:absolute;
+        padding:8px;
+        border-radius: 10px ;
+        border:solid #013a63;
+        background-color: whitesmoke;
+        color: #110000;
+        text-decoration: none;
+        top:30px;
+        right:155px;}
+.about{position:absolute;
+        padding:8px;
+        border-radius: 10px ;
+        border:solid #013a63;
+        background-color:whitesmoke;
+        color: #110000;
+        text-decoration: none;
+        top:30px;
+        right:280px;}
+#project{color: #013a63;
+         font-weight: 900;
+        text-align: center;}               
+#html{scroll-behavior: smooth;}
+#body{background:transparent;
+        }
+.hr{background-color:#013a63;
+    font-weight: bold;
+    color: #013a63;
+     border:#013a63 2px solid;}    
+#submit{background-color: #013a63;color: #cfcfcf;right: 450px;position:absolute;}                
+#reset{background-color: #013a63;color: #cfcfcf;}
